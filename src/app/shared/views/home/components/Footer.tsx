@@ -8,6 +8,12 @@ const Footer = () => {
           &copy; {new Date().getFullYear()} My Next.js Base Project. All rights
           reserved.
         </p>
+        <span>
+          Powered by{' '}
+          <a href="https://agustin.top/" target="_blank">
+            Agustin
+          </a>
+        </span>
       </div>
     </footer>
   );
